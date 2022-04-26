@@ -1,0 +1,31 @@
+import React, { Component } from "react";
+import Profile from "./profile/Profile";
+
+class App extends Component {
+	propsForMinhaz = {
+		name: "Sharif Md. Minhazur Rahman Rabbi",
+		firstBio:
+			"I am nothing at this moment. Recently, I almost spending about my 80% time in my imagination.",
+		secondBio:
+			"i have nothing to lose. cause i don't have anything special (special means what normal people think about it)",
+		skills: ["java", "js", "c"],
+		social: ["twitter", "facebook"],
+	};
+	propsForSharif = {
+		name: "Sharif Minhaz",
+		firstBio: "I am everything in my imagination.",
+		secondBio: "i have nothing to say.",
+		skills: ["js", "c", "git"],
+		social: ["twitter", "facebook", "instagram"],
+	};
+	render() {
+		return (
+			<>
+				<Profile {...this.propsForMinhaz} />
+				<Profile {...this.propsForSharif} />
+			</>
+		);
+	}
+}
+
+export default App;

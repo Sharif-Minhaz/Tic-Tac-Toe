@@ -1,0 +1,36 @@
+.container {
+	background-color: whitesmoke;
+	border: 1px solid azure;
+	padding: 20px;
+	width: 500px;
+	border-radius: 10px;
+	margin: 30px auto;
+}
+.naming {
+	text-align: left;
+}
+.naming h1 {
+	text-transform: uppercase;
+}
+.naming p {
+	text-transform: lowercase;
+}
+.skills {
+	color: gray;
+}
+.skills ul,
+.social ul {
+	display: flex;
+	gap: 13px;
+	list-style: none;
+}
+.skills ul li {
+	background-color: rgb(221, 234, 239);
+	padding: 4px 10px;
+	border-radius: 8px;
+	text-align: center;
+}
+.social ul li a {
+	color: rgb(26, 26, 26);
+	text-transform: capitalize;
+}

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-body {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+/* <---------- heading ----------> */
+.heading {
+    width: 60%;
+}
+.heading h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+.heading small {
+    font-size: 13px;
+}
+.heading div img {
+    width: 30px;
+    border-radius: 50%;
+}
+.heading .auth-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.heading p {
+    font-size: 14px;
+}
+/* <----------- thumbnail ------------> */
+.thumb-container {
+    position: relative;
+    width: 40%;
+}
+.thumb-container img {
+    width: 100%;
+}
+.thumb-container span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    background-color: black;
+    padding: 2px 6px;
+    border-radius: 4px;
+}

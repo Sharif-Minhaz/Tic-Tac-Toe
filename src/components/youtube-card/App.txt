@@ -1,0 +1,12 @@
+import React, { Component } from "react";
+import AllCard from "./youtube-card/AllCard";
+
+class App extends Component {
+	render() {
+		return (
+			< AllCard />
+		);
+	}
+}
+
+export default App;
