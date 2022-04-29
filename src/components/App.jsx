@@ -1,10 +1,14 @@
-import React, { Component } from "react";
-import Input from "./inputs/input";
+import React from "react";
+import TicTacToe from "./tic-tac-toe/TicTacToe";
+import "./app.css";
 
-class App extends Component {
-	render() {
-		return <Input />;
-	}
+function App(props) {
+	return (
+		<div className="app">
+			<h1>Tic Tac Toe</h1>
+			<TicTacToe />
+		</div>
+	);
 }
 
 export default App;

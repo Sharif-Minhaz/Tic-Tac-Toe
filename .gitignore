@@ -11,6 +11,15 @@
 # production
 /build
 
+#extra
+/src/components/controlled-form
+/src/components/inputs
+/src/components/profile
+/src/components/signup
+/src/components/timer
+/src/components/youtube-card
+
+
 # misc
 .DS_Store
 .env.local
