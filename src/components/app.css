@@ -45,6 +45,7 @@ li {
 	padding: 0;
 	text-align: center;
 	width: 80px;
+	user-select: none;
 }
 .info-btn {
 	background-color: white;
